@@ -14,9 +14,13 @@ It will read the file entrada2.txt and produce a timescale for long sequences of
 
 ## Build 
 
-There are two ways to build the project. The first option is to use docker to create a virtual environment that will build everything. The other way is to use directly make file from your environment, if you have already installed g++ compiler.
+This project was built in macOS, so it is Unix friendly. However, you can also compile it from Windows using docker :)
 
-If you already have a g++ compiler, use directly the makefile. If that is not the case, build it from docker with a fresh ubuntu option :)
+There are two ways to build the project. The first option is to use docker to create a virtual environment that will build everything. The other way is to use directly the make file from your environment, if you have already installed g++ compiler and other dependencies.
+
+If you already have a g++ compiler and a Unix system, use last option. If that is not the case, build it from docker with a fresh ubuntu in the first option :)
+
+You can find about docker [here](https://docs.docker.com/get-started/) and how to install it [here](https://docs.docker.com/engine/install/).
 
 <details>
 <summary>Build with docker</summary>
